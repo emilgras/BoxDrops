@@ -2,4 +2,19 @@
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Image view properties -->
+    <dimen name="iv_logo_size">192dp</dimen>
+    <dimen name="iv_logo_margin">84dp</dimen>
+
+    <!-- Button Drawable selector properties -->
+    <dimen name="btn_add_it_corner_radius_purple">2dp</dimen>
+    <dimen name="btn_add_it_strike_width">1dp</dimen>
+
+    <!-- Button properties -->
+    <dimen name="btn_add_it_text_size">24sp</dimen>
+    <dimen name="btn_add_drop_margin">28dp</dimen>
+    <dimen name="btn_add_drop_padding_left_right">60dp</dimen>
+    <dimen name="btn_add_drop_padding_top_bottom">8dp</dimen>
+
 </resources>
