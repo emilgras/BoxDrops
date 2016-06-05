@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_dialog">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_add_drop"
+            android:layout_marginTop="@dimen/tv_title_top_bottom_margin"
+            android:layout_marginBottom="@dimen/tv_title_top_bottom_margin"
+            android:textSize="@dimen/tv_title_fontsize"/>
+
+        <ImageButton
+            android:id="@+id/btn_close"
+            android:layout_width="@dimen/imgBtn_close_width_height"
+            android:layout_height="@dimen/imgBtn_close_width_height"
+            android:src="@drawable/ic_clear"
+            android:layout_alignParentRight="true"
+            android:layout_alignBottom="@+id/tv_title"
+            android:layout_alignTop="@id/tv_title"
+            android:background="@null"/>
+
+        <EditText
+            android:id="@+id/et_drop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_title"
+            android:background="@drawable/bg_et_drop"
+            android:inputType="textVisiblePassword"
+            android:hint="@string/hint_et_drop"
+            android:padding="@dimen/et_drop_padding"/>
+
+        <com.emilgras.boxdrops.widgets.CustomPickerView
+            android:id="@+id/pv_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="64dp"
+            android:layout_marginBottom="64dp"
+            android:layout_below="@id/et_drop"/>
+
+        <Button
+            android:id="@+id/btn_add_it"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_btn_add_it"
+            android:layout_below="@id/pv_date"
+            android:text="@string/add_it"
+            android:textAllCaps="false"/>
+
+    </RelativeLayout>
+
+</ScrollView>

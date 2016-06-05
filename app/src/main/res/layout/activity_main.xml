@@ -5,5 +5,19 @@
     android:layout_height="match_parent"
     tools:context="com.emilgras.boxdrops.ActivityMain">
 
-    <include layout="@layout/empty_drops"/>
+    <ImageView
+        android:id="@+id/iv_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <include android:id="@+id/toolbar" layout="@layout/toolbar"/>
+
+    <com.emilgras.boxdrops.widgets.BoxRecyclerView
+        android:id="@+id/rv_drops"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar"/>
+
+    <include android:id="@+id/empty_drops" layout="@layout/empty_drops"/>
+
 </RelativeLayout>

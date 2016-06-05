@@ -1,4 +1,6 @@
 <resources>
+
+    <!-- ********* activity_main ********* -->
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
@@ -16,5 +18,20 @@
     <dimen name="btn_add_drop_margin">28dp</dimen>
     <dimen name="btn_add_drop_padding_left_right">60dp</dimen>
     <dimen name="btn_add_drop_padding_top_bottom">8dp</dimen>
+
+
+
+    <!-- ********* dialog_menu ********* -->
+    <!-- TextView properties -->
+    <dimen name="tv_title_top_bottom_margin">36dp</dimen>
+    <dimen name="tv_title_fontsize">18sp</dimen>
+    <dimen name="imgBtn_close_width_height">12dp</dimen>
+    <dimen name="et_drop_padding">16dp</dimen>
+
+    <!-- Exit button properties -->
+
+    <dimen name="tv_picker_item_width">96dp</dimen>
+    <dimen name="tv_picker_item_drawable_padding">16dp</dimen>
+    <dimen name="tv_picker_inter_spacing">32dp</dimen>
 
 </resources>
